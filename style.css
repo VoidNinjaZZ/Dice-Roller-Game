@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(233, 234, 235);
+}
+.container{
+ 
+   text-align: center;
+   align-items: center;
+   padding: auto;
+ 
+   
+}
+#rollBtn{
+    border: none;
+   
+    font-size: 25px;
+    color: azure;
+    background-color:orangered;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#rollBtn:hover{
+
+    color: rgb(253, 253, 253);
+    background-color:rgb(238, 88, 34);
+ 
+}
+
+
+#in{
+    padding: 7px;
+ text-align: center;
+} 
+/* wrong
+ #diceImages {
+    width: 150px;
+    margin: 5px;
+} */
+
+#diceImages img {
+    width: 150px;
+    margin: 5px;
+}
